@@ -1,0 +1,53 @@
+.pretty-radio {
+  position: relative;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 7px 0px;
+  display: flex;
+  align-items: center;
+}
+.radio {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.radio-look {
+  width: 1.3rem;
+  height: 1.3rem;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 1px;
+  zoom: 0.8;
+  border: 1px solid #6d6974;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 10px;
+}
+
+.radio-look:after {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  bottom: 5px;
+  right: 5px;
+  border-radius: 50%;
+}
+
+.radio:checked + .radio-look:after {
+  background: $patient;
+}
+.radio:checked + .radio-look.border-admin:after {
+  background: $admin;
+}
+.radio:checked + .radio-look {
+  border: 1px solid $patient;
+}
+.radio:checked + .radio-look.border-admin {
+  border: 1px solid $admin;
+}

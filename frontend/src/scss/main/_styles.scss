@@ -1,0 +1,18 @@
+// variables
+@import './variables';
+// utilites
+@import './utilities/utility';
+
+// mixins
+@import './mixins/animations';
+@import './mixins/background-variant';
+@import './mixins/transform';
+@import './mixins/utilities';
+
+// animations
+@import './animations';
+
+// screens
+@import './pages/auth';
+@import './pages/landing';
+@import './pages/quiz';

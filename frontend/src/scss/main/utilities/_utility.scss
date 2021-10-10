@@ -1,0 +1,23 @@
+@mixin text-primary {
+  list-style: none;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: 'Poppins';
+  color: $grey;
+}
+.justify-center {
+  justify-content: center !important;
+}
+.w-100 {
+  width: 100% !important;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.align-center {
+  align-items: start;
+}
+.ps-4 {
+  padding-right: 10px;
+}
