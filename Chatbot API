@@ -1,0 +1,7 @@
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Combino"
+  agent-id="7d439cae-cc5b-4c17-b67d-78719f97dc7c"
+  language-code="en"
+></df-messenger>
